@@ -1,10 +1,689 @@
-<html>
+<!DOCTYPE html>
+
+
+
+    <html lang="en-us">
+
     <head>
-       <link rel="stylesheet" href="style.css">        
-        <title>Slime Squad</title>
-    </head>
-    <body>
-       <p>test </p>
-       <p>Test2 </p>
-    </body>
-</html>
+    <title>Welcome</title>
+<!-- Meta Tags -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="XSlimeX">
+
+<!-- Meta Tags -->
+
+
+<!--CSS STARTS HERE-->
+
+    <style>
+    
+    
+    html {
+    scroll-behavior: smooth;
+}
+
+    
+    
+    body {
+        text-align:center;
+        width:100%;
+        margin:0% auto;
+        
+        }
+
+
+
+
+   
+    
+   
+     
+
+
+    ul {
+        list-style-type:none;
+        background: rgb(0, 0, 0);
+        
+        top:0;
+        right: 0;
+        margin-top:0%;
+        padding:12px;
+        position:fixed;
+        width:100%;
+        text-align:right;
+        z-index: 10px;
+        
+        
+       }
+
+    li {
+         display:inline-block;
+         background: rgb(0, 0, 0);
+      
+        
+
+        }
+    
+    li a {
+        text-decoration:none;
+        background: rgb(0, 0, 0);
+        color:white;
+        padding:12px;
+        
+        padding-top:10px;
+        font-family:arial;
+        font-size:10px;
+        
+        font-weight: bolder;
+        outline:none;
+              
+        
+          }
+
+
+    
+
+    li a:hover {
+        border-bottom:3px solid orange;
+        
+            
+    
+        }
+
+    li a:active {
+        border-bottom:3px solid orange;
+        }
+
+
+/*NAV ENDS HERE*/
+
+
+
+    .heading {
+        font-family:Baltica;
+        font-weight:bold;
+        display: inline-block;
+        background: black;
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+        transform: rotateZ(-5deg);
+
+        }    
+
+
+
+
+    .slide {
+        
+        background-color:black;
+        background-image:url("https://serving.photos.photobox.com/95545740cc56c6606241a49681229baa3328d1e3c6125e6c06f7b45bab3012803b7d4c2b.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        text-align:center;
+        color:white;
+        box-shadow:2px 2px 20px 5px black;
+        
+        
+        }
+
+
+
+
+
+
+    .getintouch {
+        cursor:pointer;
+        background:none;
+        color:white;
+        border:2px solid orange;
+        width:contain;
+        padding:14px;
+        font-weight:bold;
+        transition:all 1s;
+        
+        
+        }
+
+
+    .getintouch:hover {
+        background:orange;
+        transform:scale(1.1);
+        margin-right:5px
+        }
+
+
+    .getintouch:active {
+        background:orange;
+        }
+
+
+        .viewmyprojects {
+        
+        cursor:pointer;
+        background:orange;
+        color:white;
+        border:2px solid orange;
+        width:contain;
+        padding:14px;
+        font-weight:bold;
+        transition:all 1s;
+        
+        }
+
+
+
+
+    .viewmyprojects:hover {
+        background:none;
+        transform:scale(1.1);
+        margin-left:20px
+        }
+
+
+    .viewmyprojects:active {
+        background:orange;
+        }
+
+/* IMAGE STYLES */
+
+    .louis {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        border:2px solid orange;
+        transition:all 1.5s
+        }
+
+
+
+    .louis:hover {
+        transform:scale(1.2);
+        }
+
+
+
+/* IMAGE STYLES ENDS */
+
+
+
+
+/* LOGO STARTS */
+
+
+        
+  
+
+
+    
+
+
+      
+/* Media Queries */     
+      
+    @media screen and (max-width:425px) {
+    .XSlimeX {
+        width:100px;
+        height:100px;
+    }
+        }
+
+    @media screen and (min-width:600px) {
+    li a {
+        font-size: 10px;
+    }
+        }
+
+    
+
+
+    @media screen and (min-width:720px) {
+        .slide {
+        
+        background-color:black;
+        background-image:url("https://serving.photos.photobox.com/95545740cc56c6606241a49681229baa3328d1e3c6125e6c06f7b45bab3012803b7d4c2b.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        text-align:left;
+        color:white;
+        box-shadow:2px 2px 20px 5px black;
+        padding-left: 10%;
+        font-size: 20px;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        
+        }
+    }
+  
+    
+      
+      
+    @media screen and (max-width:480px) {
+    h1 {
+        font-size:25px;
+      
+    }
+   }      
+   
+   
+   
+    @media screen and (max-width:480px) {
+    h6 {
+        font-size:10px;
+      
+    }
+   }      
+   
+   @media screen and (max-width:719px) {
+    .icons2 {
+            visibility: hidden;
+    }
+   }
+
+   @media screen and (min-width:720px) {
+    .icons2 {
+            display: block;
+            position: absolute;
+            right: 4%;
+           
+            visibility: visible;
+           
+
+    }   
+    }
+      
+      
+/* Media Queries end */
+
+/* Social Icons */
+
+
+.linkedin  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;      
+                
+            }
+            
+       .icons p, .icons2 p {
+          transition:all 0.5s;     display:inline-block  ;
+           margin:0.5%;
+           cursor:pointer;
+           outline:none;
+       }
+            
+            
+.github  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;   
+             font-family: serif;   
+                
+            }
+
+
+
+.facebook  {
+                font-weight:bold;
+               width:30px;
+                height:30px;
+                border-radius:50%;
+                text-align:center;
+             font-size:25px; 
+             color:orange;
+             border:2px solid orange;   
+             
+                
+            }
+
+    
+
+  .icons p:hover, .icons2 p:hover, #about p:hover {
+       background:orange;
+       color:white;
+       outline:none;
+   }
+
+/* Social Icons ends */
+
+
+
+
+/* About */
+
+    #about {
+        text-align: center;
+        background: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 10%;
+        padding-left: 10%;
+        transition:all 1s;
+        
+        
+        
+    }
+
+/* Skills */
+
+    .skills {
+        width:100%;
+        box-shadow:0.5px 0.5px 30px 0.5px black;
+       
+    }
+
+    #skills {
+        background: rgb(248, 246, 246);
+    }
+
+
+/* Contact */
+
+    #contact {
+        background: rgb(40, 38, 38);
+        
+        
+    }
+
+
+    #contact h4 {
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #contact h1 {
+        color: orange;
+        font-size:40px
+    }
+
+
+@media screen and (max-width:480px) 
+{
+    #contact h1 {
+        color: orange;
+        font-size:25px
+    }
+}
+
+
+
+
+    form {
+        background: rgb(58, 54, 54);
+        width: 90%;
+        margin: auto;
+     
+    }
+
+    input, textarea {
+        width:70%;
+        padding:20px;
+        padding-left: 0px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+        transition: all 1s;
+        color:white;
+    }
+
+
+    textarea {
+        width:70%;
+        height: 200px;
+        padding:20px;
+        padding-left: 0px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+
+
+
+    input:focus, textarea:focus {
+        border-bottom: 2px solid orange;
+        outline: none;
+    }
+
+    .submit {
+        cursor:pointer;
+        background:orange;
+        color:white;
+        border:2px solid orange;
+        width:50%;
+        padding:14px;
+        font-weight:bold;
+        transition:all 0.5s;
+        
+        
+        }
+
+
+    .submit:hover {
+        background:orange;
+        transform:scale(1.1);
+        
+        }
+
+
+    .submit:active {
+        background:orange;
+        }
+
+    .contacticon {
+        border-radius:50%;
+        width:60px;
+        height:60px;
+        box-shadow:1px 1px 20px 1px black;
+        position:fixed;
+        bottom:5%;
+        border:none;
+        right:5%;
+        transition:all 0.5s;
+        outline:none;
+
+    }
+    
+    .contacticon {
+        background:none;
+        outline:none;
+    }
+
+
+    .contacticon:active {
+        
+        transform:rotate(180deg) scale(1.1);
+    }
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <div class="header">
+
+
+    <div class="nav">
+    
+    <ul>
+    <li><a href="MY PORTFOLIO.html" title="Home">HOME</a></li>
+      
+    <li><a href="#about" title="About">ABOUT</a></li>
+    <li><a href="#skills" title="My Skills">MY SKILLS</a></li>
+    <li><a href="#" title="My Projects">PROJECTS</a></li>
+
+    </ul>
+    </div>
+
+
+
+
+
+
+
+<div class="slide">
+        
+
+    
+    <div class="icons2">
+        <p class="linkedin">in</p>
+       <br>
+       <br>
+        <p class="github">g</p>
+       <br>
+       <br>
+        <p class="facebook">f</p>
+       <br>
+       <br>
+               
+</div>
+    
+    
+    
+        <img src="" class="XSlimeX">
+            
+        <br>
+        <h1>Pocketmine, discord bot, website and game developer.</h1>
+        <h6 style="font-family: Arial, Helvetica, sans-serif">so welcome to my website!,<br> have a look there.<br> i hope you like my website!, need something? Contact me:) </h6>
+        
+    
+        <a href="#contact"><button class="getintouch">Get In Touch!</button></body></a>
+        <a href="#"><button class="viewmyprojects">View My Projects</button></a>
+        <br><br>
+        
+<div class="icons">
+        <p class="linkedin">in</p>
+   
+   
+        <p class="github">g</p>
+   
+   
+        <p class="facebook">f</p>
+   
+   
+   <a href="#contact"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS538QHx3LsCX3nobHmLpmyEYbNlFFTHZf4znRDyoeJySZs1Xby" class="contacticon"></a>
+   
+   
+   
+           
+       </div>
+        
+        
+        
+        
+    <br><br><br><br><br><br><br>
+    
+
+    
+</div>
+
+
+<div id="about">
+        <br><br><br><br><br><br><br><br>
+        <h4 style="font-weight: bold">HELLO THERE</h4>
+        <h1 style="font-size: 60px;color:white;font-family: Georgia, 'Times New Roman', Times, serif">Some info</h1>
+        <br>
+        <hr>
+        <br>
+        <p style="font-size: x-large;line-height: 40px">Hello there!. My name is Ignatios, but Maybe you know me as XSlimeX.<br>Im a experienced developer and coding is my hobby.<br>I started coding mutch time ago, i was a noob..<br> No one helped me to learn coding Languages..<br> I hope you like my work, plugins, bots etc.<br> Have a great Day!!.</p>
+        <br><br><br><br><br><br>
+
+</div>
+
+  
+
+
+
+<div id="skills">
+        <br><br><br><br>
+        <h1 style="color: orange">MY SKILLS<br><br>HTML<br>CSS<br>JS<br>PYTHON<br>KOTLIN, JAVA<br>PHP<br></h1>
+</div>
+
+
+
+<br><br><br><br>
+<div id="contact">
+        <br><br><br><br><br><br>
+    <h4>Get In Touch With Me</h4>
+    <h1>Need help<br> or want to hire me?. <br> Contact me!.</h1>
+    <br><br>
+
+
+    <form>
+        <br><br>
+        <h4>SEND ME A MESSAGE</h4>
+        <h1>UNDER DEV<br> discord:ignatiosg#1030</h1>
+        <br>
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <br><br>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <br><br>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <br><br>
+        <textarea placeholder="Your Message"></textarea>
+        <br><br><br>
+        <button type="submit" class="submit">SUBMIT</button>
+        <br><br>
+        <h1>PLEASE REPORT BUGS! DM ME ON DISCORD ignatiosg#1030<br>Copyright ©XSlimeX 2019-2019.</h1>
+
+        <div class="icons">
+                <p class="linkedin">in</p>
+           
+           
+                <p class="github">g</p>
+           
+           
+                <p class="facebook">f</p>
+           
+                   <br>
+               </div>
+                <br>
+
+</form>
+
+<br><br>
+
+
+
+</div>
+
+
+
+<div class="footer">
+    
+    
+    
+</div>
+
+
+
+
+</body>
+    
+    </html>
